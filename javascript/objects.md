@@ -14,14 +14,13 @@ Objects are a JavaScript data type that has collections of `key: value` pairs. O
 - can distinguish between the key and value of an object
 - can access object properties with dot notation
 - can create an object with a method
-- can define JSON
 - can demonstrate how to destructure an object
 - can access an object's value by its destructured key
 - can iterate through an array of objects using a higher-order function
 
 #### Vocabulary
 
-- JSON
+
 - key: value pairs
 - methods
 - dot notation
@@ -167,25 +166,6 @@ This may seem like a trivial feature, but object destructuring can save you load
 
 Being comfortable with object destructuring allows you to make quick work of extracting and manipulating object properties.
 
-### JSON
-
-**JSON** stands for JavaScript Object Notation and is a text-based data format that follows the JavaScript object syntax. JSON is used in the JavaScript language to hold collections of data as well as being used independently to transmit data across a network. JSON is an object notation that is held inside of a string. JSON keys also require string notation. 
-
-```
-// Example user object to be transmitted across the web
-
-"{
-  "name": "John", 
-   "age": 30, 
-   "car": "Subaru_wrx"
- }"
-```
-
-It is a common mistake to call a JSON object literal "a JSON object".
-
-JSON cannot be an object. JSON is a string format.
-
-The data is only JSON when it is in a string format. When it is converted to a JavaScript variable, it becomes a JavaScript object.
 
 ---
 
