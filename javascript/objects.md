@@ -43,13 +43,11 @@ Objects are a JavaScript data type that has collections of `key: value` pairs. O
 
 ---
 
-### Object with Data: JSON
-
-**JSON** stands for JavaScript Object Notation and is a text-based data format that follows the JavaScript object syntax. JSON is used in the JavaScript language to hold collections of data as well as being used independently to transmit data across a network.
+### Object with Data:
 
 Objects consist of collections of **key:value pairs** stored in curly braces. The key is a data type of symbol and the value is any valid data type in JavaScript.
 
-Creating an object in JSON:
+Creating an object:
 
 ```javascript
 const person = { name: "Alex Keaton", phone: 123456789 };
@@ -168,6 +166,19 @@ Notice that an object destructuring assignment:
 This may seem like a trivial feature, but object destructuring can save you loads of typing when it comes to objects with nested properties.
 
 Being comfortable with object destructuring allows you to make quick work of extracting and manipulating object properties.
+
+### JSON
+
+**JSON** stands for JavaScript Object Notation and is a text-based data format that follows the JavaScript object syntax. JSON is used in the JavaScript language to hold collections of data as well as being used independently to transmit data across a network.
+```
+// User object to be transmitted across the web
+'{"name":"John", "age":30, "car":Subaru_wrx}'
+```
+It is a common mistake to call a JSON object literal "a JSON object".
+
+JSON cannot be an object. JSON is a string format.
+
+The data is only JSON when it is in a string format. When it is converted to a JavaScript variable, it becomes a JavaScript object.
 
 ---
 
