@@ -169,11 +169,18 @@ Being comfortable with object destructuring allows you to make quick work of ext
 
 ### JSON
 
-**JSON** stands for JavaScript Object Notation and is a text-based data format that follows the JavaScript object syntax. JSON is used in the JavaScript language to hold collections of data as well as being used independently to transmit data across a network.
+**JSON** stands for JavaScript Object Notation and is a text-based data format that follows the JavaScript object syntax. JSON is used in the JavaScript language to hold collections of data as well as being used independently to transmit data across a network. JSON is an object notation that is held inside of a string. JSON keys also require string notation. 
+
 ```
-// User object to be transmitted across the web
-'{"name":"John", "age":30, "car":Subaru_wrx}'
+// Example user object to be transmitted across the web
+
+"{
+  "name":"John", 
+   "age":30, 
+   "car":Subaru_wrx
+ }"
 ```
+
 It is a common mistake to call a JSON object literal "a JSON object".
 
 JSON cannot be an object. JSON is a string format.
