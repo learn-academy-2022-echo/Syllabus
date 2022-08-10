@@ -175,9 +175,9 @@ Being comfortable with object destructuring allows you to make quick work of ext
 // Example user object to be transmitted across the web
 
 "{
-  "name":"John", 
-   "age":30, 
-   "car":Subaru_wrx
+  "name": "John", 
+   "age": 30, 
+   "car": "Subaru_wrx"
  }"
 ```
 
