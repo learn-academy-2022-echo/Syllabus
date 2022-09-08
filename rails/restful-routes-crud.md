@@ -61,7 +61,7 @@ delete '/photos/:id' => 'photos#destroy'
 
 #### Show
 - The controller method **show** represents the **R** in CRUD and is the Rails convention for listing one item in a particular model, or `show one`
-- The HTTP verb associated with index is **get**
+- The HTTP verb associated with show is **get**
 - The show route is: `get '/resources/:id' => 'resources#show'`
 
 #### New
